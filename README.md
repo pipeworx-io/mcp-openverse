@@ -1,19 +1,21 @@
-# mcp-openverse
+# @pipeworx/openverse
 
-Openverse MCP — Creative-Commons-licensed image + audio search.
+[Openverse](https://openverse.org) MCP — search the union catalog of Creative-Commons-licensed images + audio (Wikimedia, Flickr, museums, etc). Keyless (anonymous tier is rate-limited but usable).
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 673+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
-| Tool | Description |
-|------|-------------|
-| `search_images` | Search Creative-Commons-licensed images. |
-| `search_audio` | Search Creative-Commons-licensed audio. |
-| `get_image` | Single image record by id. |
-| `get_audio` | Single audio record by id. |
-| `image_related` | Related images for a given image id. |
-| `audio_related` | Related audio for a given audio id. |
+- `search_images(query, filters?)` — search CC-licensed images
+- `search_audio(query, filters?)` — search CC-licensed audio
+- `get_image(id)` — single image record
+- `get_audio(id)` — single audio record
+- `image_related(id)` — related images
+- `audio_related(id)` — related audio
+
+## Data source
+
+`https://api.openverse.engineering/v1/`
 
 ## Quick Start
 
@@ -29,7 +31,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 673+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -53,7 +55,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
