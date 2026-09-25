@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/openverse",
   "title": "Openverse",
-  "description": "Openverse Creative-Commons image + audio search",
-  "version": "0.1.0",
+  "description": "Openverse MCP — Creative-Commons-licensed image + audio search.",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/openverse",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-openverse",

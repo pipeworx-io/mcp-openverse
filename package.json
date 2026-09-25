@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-openverse",
-  "version": "0.1.0",
-  "description": "Openverse Creative-Commons image + audio search",
+  "version": "0.1.1",
+  "description": "Openverse MCP — Creative-Commons-licensed image + audio search.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-openverse": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "openverse"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-openverse"
+    "url": "git+https://github.com/pipeworx-io/mcp-openverse.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-b16d42a00b9e7bf98e8e6970a25746cc2dfad640955bcf14dbdbc23c4ba0bfbc",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }
