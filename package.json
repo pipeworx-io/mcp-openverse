@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-openverse",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Openverse MCP — Creative-Commons-licensed image + audio search.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-b16d42a00b9e7bf98e8e6970a25746cc2dfad640955bcf14dbdbc23c4ba0bfbc",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-0fa990f12bf4a8c46e8990028a4338e8453e37ebcf1f0117e3df8594444c157e",
+    "sourceCommit": "4d51421bd010ad9a322c2245b70b401604912eff"
   }
 }
