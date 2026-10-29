@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/openverse",
   "title": "Openverse",
   "description": "Openverse MCP — Creative-Commons-licensed image + audio search.",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/openverse",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-openverse",
