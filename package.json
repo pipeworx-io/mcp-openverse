@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-openverse",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Openverse MCP — Creative-Commons-licensed image + audio search.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "openverse",
     "gatewaySlug": "openverse",
-    "sourceHash": "v1-08a61361092543b6b1da0e145290f2e9dcc0443450b455c90fe170729faf14b8",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-da147078ab77068f3550ca43132c614d08d04d115d60b1a949ebb995b5d8f400",
+    "sourceCommit": "243a06a6ca2d3b6075325f3b66a1468d0a2eb603"
   }
 }
